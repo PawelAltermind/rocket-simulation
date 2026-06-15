@@ -42,16 +42,11 @@ The simulation is based on simplified internal ballistics equations:
 
 ### Thrust profiles
 
-![Thrust profile](figures/wykres_idealny_Ft.png)
+![Thrust profile](figures/APCP_thrust)
 
-### Chamber pressure
 
-![Pressure](figures/fizyczny_profil_cisnienia.png)
+## ▶️ How to Run
 
-### Hybrid performance comparison
-
-![Hybrid](figures/profil_ciagu_3kN_realistyczny.png)
-
----
-
-## 📦 Project Structure
+```bash
+pip install -r requirements.txt
+python projekt_ciag.py
