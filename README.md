@@ -1,29 +1,114 @@
-# Rocket Internal Ballistics Simulation
+# \# 🚀 Rocket Engine Internal Ballistics Simulation
 
-## Overview
+# 
 
-This project simulates internal ballistics of rocket engines and compares different propulsion systems under a fixed total impulse constraint (~3000 Ns).
+# Numerical simulation of internal ballistics for solid and hybrid rocket motors.
 
-## Engine types
+# 
 
-- Solid: KNSB, APCP  
-- Hybrid: N2O + Paraffin, N2O + HTPB  
+# The project compares different propulsion systems under a fixed design constraint:
 
-## Goal
+# 
 
-To analyze how different propellants affect:
-- thrust profile
-- burn time
-- nozzle sizing
-- stability of combustion
+# > \*\*Total impulse ≈ 3000 Ns\*\*
 
-## Key feature
+# 
 
-The simulation enforces a **constant impulse target (~3000 Ns)** to allow fair comparison between propulsion systems.
+# \---
 
-## Outputs
+# 
 
-- Thrust vs time curves
-- Chamber pressure evolution
-- Nozzle throat sizing
-- Total impulse calculation
+# \## 🎯 Project Goal
+
+# 
+
+# The main objective is to analyze how different propellants influence:
+
+# 
+
+# \- thrust profile
+
+# \- burn time
+
+# \- nozzle geometry requirements
+
+# \- total impulse
+
+# \- stability of combustion
+
+# 
+
+# Four propulsion configurations are simulated:
+
+# 
+
+# \- KNSB (solid)
+
+# \- APCP (solid)
+
+# \- N₂O / Paraffin (hybrid)
+
+# \- N₂O / HTPB (hybrid)
+
+# 
+
+# \---
+
+# 
+
+# \## ⚙️ Model Overview
+
+# 
+
+# The simulation is based on simplified internal ballistics equations:
+
+# 
+
+# \- Saint Robert’s law (solid motors)
+
+# \- Marxman model (hybrid motors)
+
+# \- time-dependent chamber pressure solver
+
+# \- evolving grain geometry
+
+# 
+
+# \---
+
+# 
+
+# \## 📊 Key Results
+
+# 
+
+# \### Thrust profiles
+
+# 
+
+# !\[Thrust profile](figures/wykres\_idealny\_Ft.png)
+
+# 
+
+# \### Chamber pressure
+
+# 
+
+# !\[Pressure](figures/fizyczny\_profil\_cisnienia.png)
+
+# 
+
+# \### Hybrid performance comparison
+
+# 
+
+# !\[Hybrid](figures/profil\_ciagu\_3kN\_realistyczny.png)
+
+# 
+
+# \---
+
+# 
+
+# \## 📦
+
