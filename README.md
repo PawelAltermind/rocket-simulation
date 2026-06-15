@@ -42,7 +42,7 @@ The simulation is based on simplified internal ballistics equations:
 
 ### Thrust profiles
 
-![Thrust profile](figures/APCP_thrust)
+![Thrust profile](figures/APCP_thrust.png)
 
 
 ## ▶️ How to Run
